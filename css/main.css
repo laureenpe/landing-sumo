@@ -1,0 +1,74 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+/*Primera sección*/
+.first-section{
+    background-image: url("../img/bg.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.first-section h1{
+    padding-top: 2em;
+    color: white;
+    font-weight: 900;
+    font-size: 70px;
+}
+.line{
+    border-top: 3px solid white;
+    text-align: center;
+}
+#showApp{
+    color: white;
+    font-weight: 400;
+}
+
+.app{
+    padding: 2em 0;
+    color: #5a5a5a;
+}
+
+/* SECOND SECTION*/
+.second-section{
+    background-color: white;
+    padding: 5em 0;
+}
+.title-second{
+    color: #D2527F;
+}
+.features{
+    padding: 0.8em;
+}
+.features:hover{
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+p{
+    padding: 0;
+    margin-bottom: 1em;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #666;
+    margin-top: 1em;
+}
+
+/*THIRD SECTION*/
+.third-section{
+    background-color: #f2f2f2;
+    height: 100vh;
+}
+/*BUTTONS STYLES*/
+.btn-default{
+    color: white;
+    background-color: #D2527F;
+    border-color:#b4215d; 
+}
+.btn-default:hover{
+    background-color: #c53a6d;
+    color: #fff;
+}
+.btns{
+    padding-top: 5em;
+}
